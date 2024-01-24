@@ -1,0 +1,39 @@
+{
+    nodes: [
+        {
+        id: 1,  
+        data: "",  
+        dragHandle: true,  
+        type: "string",
+        selected: true,
+        isConnectable: true,
+        zIndex: 1,
+        xPos: 100,
+        yPos: 100,
+        dragging: false,
+        targetPosition: "bottom",
+        sourcePosition: "bottom"
+    },
+    {
+        id: 2,  
+        data: "",  
+        dragHandle: true,  
+        type: "string",
+        selected: true,
+        isConnectable: true,
+        zIndex: 1,
+        xPos: 200,
+        yPos: 100,
+        dragging: false,
+        targetPosition: "bottom",
+        sourcePosition: "bottom"
+    }],
+    connection: [{
+        id: "el-9",
+        source: "1",
+        target: "2",
+        sourceHandle: "b",
+        animated: false,
+        style: { stroke: "#000" }
+    }]
+}
